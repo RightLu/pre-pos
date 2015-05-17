@@ -8,6 +8,6 @@ function collect_same_elements(collection_a, object_b) {
       }
     }
   }
-  return collection;
+  return collect_same;
 }
 module.exports = collect_same_elements;
