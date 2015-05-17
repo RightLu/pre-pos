@@ -4,7 +4,7 @@ function create_updated_collection(collection_a, object_b) {
     for(var x=0;x<object_b.value.length;x++){
       var sum=0;
       if(collection_a[i].key==object_b.value[x]){
-        sum=parselnt(collection_a[i].count/3);
+        sum=parseInt(collection_a[i].count/3);
         collection_a[i].count=collection_a[i].count-sum;
       }
     }
