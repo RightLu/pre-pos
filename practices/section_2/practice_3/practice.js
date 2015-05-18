@@ -24,6 +24,4 @@ function count_same_elements(collection) {
   return array;
 }
 
-}
-
 module.exports = count_same_elements;
