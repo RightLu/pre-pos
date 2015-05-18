@@ -4,6 +4,7 @@ function count_same_elements(collection) {
 
     for(var i = 0; i < collection.length; i++){
         var exist = false;
+
         for(var x = 0; x < array.length; x++){
             if(array[x].key == collection[i]){
                 array[x].count ++;
